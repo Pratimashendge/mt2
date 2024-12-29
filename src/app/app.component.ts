@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Imovies } from './models/movies';
+import { movieArray } from './constant/movies';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mt2';
+  movieArray:Array<Imovies>=movieArray;
 }
